@@ -1,0 +1,18 @@
+[project]
+name = "9-2-основы-git"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Arutyun",email = "arutyundan@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "9_2_основы_git", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
